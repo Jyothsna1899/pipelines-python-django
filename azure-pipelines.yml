@@ -10,8 +10,6 @@ steps:
   inputs:
     versionSpec: 3.5
     architecture: 'x64'
-    variables:
-      region: west-us
 
 - task: PythonScript@0
   displayName: 'Export project path'
